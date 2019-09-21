@@ -36,11 +36,11 @@ class OrganizationConfiguration {
     @Bean
     fun connectionFactory(): PostgresqlConnectionFactory {
         val config = PostgresqlConnectionConfiguration.builder() //
-                .host("192.168.99.100") //
+                .host("localhost") //
                 .port(5432) //
                 .database("reactive") //
-                .username("reactive") //
-                .password("reactive123") //
+                .username("postgres") //
+                .password("Company2019") //
                 .build()
 
         return PostgresqlConnectionFactory(config)

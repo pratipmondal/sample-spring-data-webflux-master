@@ -1,2 +1,2 @@
 spring.application.name: organization-service
-server.port: 8095
+server.port: 8080
